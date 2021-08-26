@@ -12,30 +12,31 @@ namespace _02_KomodoClaimsInsurance_Repo
     public enum ClaimType { Car = 1, Home, Theft}
     public class Claims
     {
-        public int ClaimID { get; set; }
-        public string ClaimType { get; set; }
+        public string ClaimsID { get; set; }
+        public ClaimType ClaimsType { get; set; }
         public string Description { get; set; }
         public decimal ClaimAmount { get; set; }
         public DateTime DateOfIncident { get; set; }
 
         public DateTime DateOfClaim { get; set; }
         public Claims () { }
-        public Claims(int claimID, string claimType, string description, decimal claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
+        public Claims(string claimsID, ClaimType claimsType, string description, decimal claimsAmount, DateTime dateOfIncident, DateTime dateOfClaims )
         { 
-            ClaimID = claimID;
-            ClaimType = claimType;
+            ClaimsID = claimsID;
+            ClaimsType = claimsType;
             Description = description;
-            ClaimAmount = claimAmount;
+            ClaimAmount = claimsAmount;
             DateOfIncident = dateOfIncident;
-            DateOfClaim = dateOfClaim;
+            DateOfClaim = dateOfClaims;
 
         }
         public bool IsValid
         {
             get
             {
-                int numberOfDays = Convert.ToInt32(DateOfClaim - DateOfIncident);
-                if (numberOfDays >30)
+                TimeSpan numberOfDays = DateOfClaim - DateOfIncident; //00:00:00
+                double doubleName = numberOfDays.TotalDays;
+                if (doubleName > 30)
                 {
                     return false;
                 }
@@ -44,10 +45,6 @@ namespace _02_KomodoClaimsInsurance_Repo
                     return true;
                 }
             }
-        }
-
-        static void Main(string[] args)
-        {
         }
     }
 }

@@ -1,7 +1,10 @@
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\bin\Debug\KomodoClaimsDepartment.exe.config
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\bin\Debug\KomodoClaimsDepartment.exe
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\bin\Debug\KomodoClaimsDepartment.pdb
+C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\bin\Debug\02KomodoClaimsRepo.dll
+C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\bin\Debug\02KomodoClaimsRepo.pdb
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\obj\Debug\02_KomodoClaims_Console.csproj.AssemblyReference.cache
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\obj\Debug\02_KomodoClaims_Console.csproj.CoreCompileInputs.cache
+C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\obj\Debug\02_KomodoClaims_Console.csproj.CopyComplete
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\obj\Debug\KomodoClaimsDepartment.exe
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\KomodoClaimsDepartment\obj\Debug\KomodoClaimsDepartment.pdb

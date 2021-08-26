@@ -8,59 +8,31 @@ namespace _02_KomodoClaimsInsurance_Repo
 {
     public class ClaimsRepo
     {
-        private List<Claims> _listOfClaimsRepoItems = new List<Claims>();
+        private Queue<Claims> _QueueOfClaimsRepoItems = new Queue<Claims>();
 
 
         //Create
         public void AddNewClaim(Claims content)
         {
-            _listOfClaimsRepoItems.Add(content);
+            _QueueOfClaimsRepoItems.Enqueue(content);
         }
 
         //Read
-        public List<Claims> GetClaimsList()
+        public Queue<Claims> GetClaimsQueue()
         {
-            return _listOfClaimsRepoItems;
+            return _QueueOfClaimsRepoItems;
         }
 
         //Update
-        public bool UpdateExistingClaims(string originalTitle, Claims newContent)
-        {
-            // find content
-            Claims oldContent = GetClaimByType(originalTitle);
 
-            //update content
-            if (oldContent != null)
-            {
-                oldContent.ClaimID = newContent.ClaimID;
-                oldContent.ClaimType = newContent.ClaimType;
-                oldContent.Description = newContent.Description;
-                oldContent.ClaimAmount = newContent.ClaimAmount;
-                oldContent.DateOfIncident = newContent.DateOfIncident;
-                oldContent.DateOfClaim = newContent.DateOfClaim;
-
-                return true;
-
-            }
-            else
-            {
-                return false;
-            }
-        }
 
         //Delete
-        public bool RemoveClaimsFromList(string title)
+        public bool RemoveClaimsFromQueue()
         {
-            Claims content = GetClaimByType(title);
+            int initialCount = _QueueOfClaimsRepoItems.Count;
+            _QueueOfClaimsRepoItems.Dequeue();
 
-            if (content == null)
-            {
-                return false;
-            }
-            int initialCount = _listOfClaimsRepoItems.Count;
-            _listOfClaimsRepoItems.Remove(content);
-
-            if (initialCount > _listOfClaimsRepoItems.Count)
+            if (initialCount > _QueueOfClaimsRepoItems.Count)
             {
                 return true;
             }
@@ -74,9 +46,9 @@ namespace _02_KomodoClaimsInsurance_Repo
         //helper Method
         private Claims GetClaimByType(string title)
         {
-            foreach (Claims content in _listOfClaimsRepoItems)
+            foreach (Claims content in _QueueOfClaimsRepoItems)
             {
-                if (content.ClaimType == title)
+                if (content.ClaimsID == title)
                 {
                     return content;
                 }

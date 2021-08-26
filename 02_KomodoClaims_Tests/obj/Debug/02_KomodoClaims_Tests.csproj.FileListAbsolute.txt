@@ -1,16 +1,2 @@
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\02_KomodoClaims_Tests.dll
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\02_KomodoClaims_Tests.pdb
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\02KomodoClaimsRepo.dll
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\02KomodoClaimsRepo.pdb
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\obj\Debug\02_KomodoClaims_Tests.csproj.AssemblyReference.cache
 C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\obj\Debug\02_KomodoClaims_Tests.csproj.CoreCompileInputs.cache
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\obj\Debug\02_KomodoClaims_Tests.csproj.CopyComplete
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\obj\Debug\02_KomodoClaims_Tests.dll
-C:\Users\dougb\source\repos\KomodoClaimsDepartmentFinal\02_KomodoClaims_Tests\obj\Debug\02_KomodoClaims_Tests.pdb
